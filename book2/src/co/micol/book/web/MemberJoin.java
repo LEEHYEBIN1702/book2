@@ -11,7 +11,7 @@ public class MemberJoin implements Command {
 
 	@Override
 	public String excute(HttpServletRequest request, HttpServletResponse response) {
-		// 회원가입 실행
+		// 
 		MemberDao dao = new MemberDao();
 		MemberVo vo = new MemberVo();
 		
